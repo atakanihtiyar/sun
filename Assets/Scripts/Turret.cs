@@ -24,6 +24,8 @@ public class Turret : MonoBehaviour
 
     public void Fire()
     {
-        Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        GameObject projectileGO = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        Projectile projectile = projectileGO.GetComponent<Projectile>();
+        projectile.FireYourself();
     }
 }

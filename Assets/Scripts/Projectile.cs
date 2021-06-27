@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void FireYourself()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
+        rigidbody.velocity = new Vector2(transform.position.x, transform.position.y);
     }
 }
