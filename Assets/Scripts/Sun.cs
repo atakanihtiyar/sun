@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Sun : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private float multiplier = 50;
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        float turnInput = Input.GetAxis("Fire1");
+        if (turnInput != 0)
+        {
+            transform.Rotate(Vector3.back * turnInput * multiplier * Time.fixedDeltaTime);
+        }
     }
 }
