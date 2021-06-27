@@ -263,6 +263,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d8bab6872541f4a889253564a2ed94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
+    type: 3}
+  maxWaitTime: 1
 --- !u!1 &358934274
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +360,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d8bab6872541f4a889253564a2ed94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
+    type: 3}
+  maxWaitTime: 1
 --- !u!1 &415869635
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +457,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d8bab6872541f4a889253564a2ed94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
+    type: 3}
+  maxWaitTime: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,6 +698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d8bab6872541f4a889253564a2ed94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
+    type: 3}
+  maxWaitTime: 1
 --- !u!1 &956279153
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,6 +795,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d8bab6872541f4a889253564a2ed94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
+    type: 3}
+  maxWaitTime: 1
 --- !u!1 &1194013349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1015,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d8bab6872541f4a889253564a2ed94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
+    type: 3}
+  maxWaitTime: 1
 --- !u!1 &1696499043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,6 +1112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d8bab6872541f4a889253564a2ed94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
+    type: 3}
+  maxWaitTime: 1
 --- !u!1 &1710277385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,3 +1298,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d8bab6872541f4a889253564a2ed94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
+    type: 3}
+  maxWaitTime: 1

@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject projectilePrefab;
+
+    private float timeAfterLoop = 0;
+    public float maxWaitTime;
+
+
+    void FixedUpdate()
     {
-        
+        timeAfterLoop += Time.fixedDeltaTime;
+
+        if (timeAfterLoop >= maxWaitTime)
+        {
+            Fire();
+
+            timeAfterLoop -= maxWaitTime;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Fire()
     {
-        
+        Instantiate(projectilePrefab, transform.position, Quaternion.identity);
     }
 }
