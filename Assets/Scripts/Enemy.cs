@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody2D rigidBody;
+    public Transform goal;
+    public float speedMultiplier;
+
+    private void Start()
     {
-        
+        rigidBody = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        Vector3 diff = goal.position - transform.position;
+        rigidBody.velocity = diff.normalized * speedMultiplier;
     }
 }
