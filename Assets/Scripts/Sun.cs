@@ -19,7 +19,7 @@ public class Sun : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log(name + " and enemy collide");
+            Debug.Log(name + " and " + collision.name + " collide");
         }
     }
 }
