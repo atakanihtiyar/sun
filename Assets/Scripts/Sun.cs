@@ -14,4 +14,12 @@ public class Sun : MonoBehaviour
             transform.Rotate(Vector3.back * turnInput * multiplier * Time.fixedDeltaTime);
         }
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Sun and enemy collide");
+        }
+    }
 }
