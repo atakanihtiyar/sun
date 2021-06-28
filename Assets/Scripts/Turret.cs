@@ -12,4 +12,12 @@ public class Turret : MonoBehaviour
         Projectile projectile = projectileGO.GetComponent<Projectile>();
         projectile.FireYourself();
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log(name + " and enemy collide");
+        }
+    }
 }
