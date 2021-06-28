@@ -18,4 +18,9 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void DestroyMe()
+    {
+        Destroy(gameObject);
+    }
 }

@@ -18,4 +18,9 @@ public class Enemy : MonoBehaviour
         Vector3 diff = goal.position - transform.position;
         rigidBody.velocity = diff.normalized * speedMultiplier;
     }
+
+    public void DestroyMe()
+    {
+        Destroy(gameObject);
+    }
 }

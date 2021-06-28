@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6038534386910354528}
   - component: {fileID: 7857457117051640093}
   - component: {fileID: -3561737544581310306}
+  - component: {fileID: -2986192338767351607}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -133,3 +134,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb695634714cb2442ab70df4c6849839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-2986192338767351607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8897623113147002785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063f5a7ccc2842d40b74e27d1867348b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxWaitTime: 5
+  toDoEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -3561737544581310306}
+        m_MethodName: DestroyMe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
