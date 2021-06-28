@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 288691403}
   - component: {fileID: 288691404}
   - component: {fileID: 288691405}
+  - component: {fileID: 288691406}
   m_Layer: 0
   m_Name: Turret (2)
   m_TagString: Turret
@@ -266,6 +267,34 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
     type: 3}
   maxWaitTime: 1
+--- !u!60 &288691406
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288691402}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.4330127, y: -0.25000003}
+      - {x: 0.43301272, y: -0.24999996}
 --- !u!1 &358934274
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +306,7 @@ GameObject:
   - component: {fileID: 358934275}
   - component: {fileID: 358934276}
   - component: {fileID: 358934277}
+  - component: {fileID: 358934278}
   m_Layer: 0
   m_Name: Turret (3)
   m_TagString: Turret
@@ -363,6 +393,34 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
     type: 3}
   maxWaitTime: 1
+--- !u!60 &358934278
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358934274}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.4330127, y: -0.25000003}
+      - {x: 0.43301272, y: -0.24999996}
 --- !u!1 &415869635
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +432,7 @@ GameObject:
   - component: {fileID: 415869636}
   - component: {fileID: 415869637}
   - component: {fileID: 415869638}
+  - component: {fileID: 415869639}
   m_Layer: 0
   m_Name: Turret (6)
   m_TagString: Turret
@@ -460,6 +519,34 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
     type: 3}
   maxWaitTime: 1
+--- !u!60 &415869639
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415869635}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.4330127, y: -0.25000003}
+      - {x: 0.43301272, y: -0.24999996}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,6 +702,7 @@ GameObject:
   - component: {fileID: 566340638}
   - component: {fileID: 566340639}
   - component: {fileID: 566340640}
+  - component: {fileID: 566340641}
   m_Layer: 0
   m_Name: Turret (4)
   m_TagString: Turret
@@ -701,6 +789,34 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
     type: 3}
   maxWaitTime: 1
+--- !u!60 &566340641
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566340637}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.4330127, y: -0.25000003}
+      - {x: 0.43301272, y: -0.24999996}
 --- !u!1 &956279153
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +828,7 @@ GameObject:
   - component: {fileID: 956279154}
   - component: {fileID: 956279155}
   - component: {fileID: 956279156}
+  - component: {fileID: 956279157}
   m_Layer: 0
   m_Name: Turret (1)
   m_TagString: Turret
@@ -798,6 +915,34 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
     type: 3}
   maxWaitTime: 1
+--- !u!60 &956279157
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956279153}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.4330127, y: -0.25000003}
+      - {x: 0.43301272, y: -0.24999996}
 --- !u!1 &1194013349
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +1077,7 @@ GameObject:
   - component: {fileID: 1672908243}
   - component: {fileID: 1672908244}
   - component: {fileID: 1672908245}
+  - component: {fileID: 1672908246}
   m_Layer: 0
   m_Name: Turret (5)
   m_TagString: Turret
@@ -1018,6 +1164,34 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
     type: 3}
   maxWaitTime: 1
+--- !u!60 &1672908246
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672908242}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.4330127, y: -0.25000003}
+      - {x: 0.43301272, y: -0.24999996}
 --- !u!1 &1696499043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1203,7 @@ GameObject:
   - component: {fileID: 1696499044}
   - component: {fileID: 1696499045}
   - component: {fileID: 1696499046}
+  - component: {fileID: 1696499047}
   m_Layer: 0
   m_Name: Turret (7)
   m_TagString: Turret
@@ -1115,6 +1290,34 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
     type: 3}
   maxWaitTime: 1
+--- !u!60 &1696499047
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696499043}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.4330127, y: -0.25000003}
+      - {x: 0.43301272, y: -0.24999996}
 --- !u!1 &1710277385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1228,6 +1431,7 @@ GameObject:
   - component: {fileID: 1726280892}
   - component: {fileID: 1726280893}
   - component: {fileID: 1726280894}
+  - component: {fileID: 1726280895}
   m_Layer: 0
   m_Name: Turret (8)
   m_TagString: Turret
@@ -1314,3 +1518,31 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8897623113147002785, guid: 770c5f180a59d2f449475c2774ab7037,
     type: 3}
   maxWaitTime: 1
+--- !u!60 &1726280895
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726280891}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.5}
+      - {x: -0.4330127, y: -0.25000003}
+      - {x: 0.43301272, y: -0.24999996}
