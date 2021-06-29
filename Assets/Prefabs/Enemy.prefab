@@ -147,7 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30efdb99d3f18bc4192851be2b007ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
   speedMultiplier: 1
 --- !u!114 &7618242608993659147
 MonoBehaviour:
@@ -161,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063f5a7ccc2842d40b74e27d1867348b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxWaitTime: 10
+  maxWaitTime: 15
   toDoEvent:
     m_PersistentCalls:
       m_Calls:
