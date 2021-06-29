@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public float speedMultiplier = 1;
+
     public void FireYourself(Vector2 direction)
     {
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
-        rigidbody.velocity = direction;
+        rigidbody.velocity = direction * speedMultiplier;
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
