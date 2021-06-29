@@ -6,12 +6,22 @@ public class Sun : MonoBehaviour
 {
     private float multiplier = 50;
 
+    public float minRotateAngle;
+    public float maxRotateAngle;
+
     void FixedUpdate()
     {
+        Debug.Log(transform.localEulerAngles);
+
         float turnInput = Input.GetAxis("Fire1");
+
         if (turnInput != 0)
         {
             transform.Rotate(Vector3.back * turnInput * multiplier * Time.fixedDeltaTime);
+            
+            Vector3 currentRotation = transform.localEulerAngles;
+            currentRotation.z = Mathf.Clamp(currentRotation.z, minRotateAngle, maxRotateAngle);
+            transform.localEulerAngles = currentRotation;
         }
     }
 
