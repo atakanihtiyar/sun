@@ -11,8 +11,6 @@ public class Sun : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(transform.localEulerAngles);
-
         float turnInput = Input.GetAxis("Fire1");
 
         if (turnInput != 0)
