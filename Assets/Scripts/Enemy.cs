@@ -6,8 +6,6 @@ public class Enemy : MonoBehaviour
 {
     private Rigidbody2D rigidBody;
     private Transform goal;
-
-    public float health;
     public float speedMultiplier;
 
     private void Start()

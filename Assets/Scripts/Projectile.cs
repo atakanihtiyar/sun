@@ -18,10 +18,8 @@ public class Projectile : MonoBehaviour
         {
             Destroy(gameObject);
 
-            Enemy enemy = collision.GetComponent<Enemy>();
-            enemy.health--;
-            if (enemy.health <= 0)
-                Destroy(enemy.gameObject);
+            Health enemyHealth = collision.GetComponent<Health>();
+            enemyHealth.DecreaseHealth();
         }
     }
 
