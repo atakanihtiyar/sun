@@ -9,7 +9,7 @@ public class TurretManager : MonoBehaviour
     public GameObject[] turrets;
     private bool isEnableNewTurret;
 
-    private float passedTimeAfterLoop = 0;
+    private float waitTime = 0;
     public float maxWaitTime;
 
     public Color startColor;
@@ -20,21 +20,21 @@ public class TurretManager : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         isEnableNewTurret = false;
-        passedTimeAfterLoop = 0;
+        waitTime = 0;
         spriteRenderer.color = startColor;
         turrets[0].SetActive(true);
     }
 
     void FixedUpdate()
     {
-        if (passedTimeAfterLoop >= maxWaitTime)
+        if (waitTime >= maxWaitTime)
         {
             isEnableNewTurret = true;
         }
         else
         {
-            passedTimeAfterLoop += Time.fixedDeltaTime;
-            spriteRenderer.color = Color.Lerp(startColor, mainColor, RemapFloat(passedTimeAfterLoop, 0, maxWaitTime, 0, 1));
+            waitTime += Time.fixedDeltaTime;
+            spriteRenderer.color = Color.Lerp(startColor, mainColor, RemapFloat(waitTime, 0, maxWaitTime, 0, 1));
         }
     }
 
@@ -43,7 +43,7 @@ public class TurretManager : MonoBehaviour
         if (isEnableNewTurret)
         {
             ActivateNextTurret();
-            passedTimeAfterLoop -= maxWaitTime;
+            waitTime -= maxWaitTime;
             isEnableNewTurret = false;
         }
     }
