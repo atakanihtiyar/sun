@@ -11,8 +11,10 @@ public class Spawner : MonoBehaviour
 
     public void Spawn()
     {
-        float newX = Random.Range(minValue, maxValue);
-        Vector2 newPos = new Vector2(newX, transform.position.y);
-        Enemy enemy = Instantiate(enemyPrefab, newPos, Quaternion.identity).GetComponent<Enemy>();
+        float newY = Random.Range(minValue, maxValue);
+        Vector2 newPos = new Vector2(transform.position.x, newY);
+
+        Patrol enemyPatrol = Instantiate(enemyPrefab, newPos, Quaternion.identity).GetComponent<Patrol>();
+        enemyPatrol.OnCreate();
     }
 }
