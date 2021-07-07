@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -9183447850203433719}
   - component: {fileID: 4038098056221182924}
   - component: {fileID: 5253458070334140506}
-  - component: {fileID: 7618242608993659147}
+  - component: {fileID: -5972258441191175509}
   - component: {fileID: -8921533837012277421}
   m_Layer: 0
   m_Name: Enemy
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMultiplier: 1
---- !u!114 &7618242608993659147
+--- !u!114 &-5972258441191175509
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,24 +158,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5253458070334140505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 063f5a7ccc2842d40b74e27d1867348b, type: 3}
+  m_Script: {fileID: 11500000, guid: 33472ac0dcf7e2c42a55fe0960d6fa81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxWaitTime: 15
-  toDoEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5253458070334140506}
-        m_MethodName: DestroyMe
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  speed: 5
+  minY: -1
+  maxY: 4
+  xDirection: 0
+  goal: {x: 0, y: 0}
 --- !u!114 &-8921533837012277421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,4 +178,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4ef473956ca0a4fbd1042d26e1825e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 1
