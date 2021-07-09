@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour
         float newY = Random.Range(minValue, maxValue);
         Vector2 newPos = new Vector2(transform.position.x, newY);
 
-        Patrol enemyPatrol = Instantiate(enemyPrefab, newPos, Quaternion.identity).GetComponent<Patrol>();
-        enemyPatrol.OnCreate();
+        StraightMovement straightMovement = Instantiate(enemyPrefab, newPos, Quaternion.identity).GetComponent<StraightMovement>();
+        straightMovement.OnCreate();
     }
 }
