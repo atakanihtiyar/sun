@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    public GameObject[] enemyPrefabs;
 
     public float minValue;
     public float maxValue;
@@ -14,7 +14,8 @@ public class Spawner : MonoBehaviour
         float newY = Random.Range(minValue, maxValue);
         Vector2 newPos = new Vector2(transform.position.x, newY);
 
-        StraightMovement straightMovement = Instantiate(enemyPrefab, newPos, Quaternion.identity).GetComponent<StraightMovement>();
+        int randomEnemy = Random.Range(0, enemyPrefabs.Length);
+        StraightMovement straightMovement = Instantiate(enemyPrefabs[randomEnemy], newPos, Quaternion.identity).GetComponent<StraightMovement>();
         straightMovement.OnCreate();
     }
 }
