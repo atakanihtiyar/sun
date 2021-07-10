@@ -8,9 +8,9 @@ public class StraightMovement : MonoBehaviour
 
     public float speed;
 
-    public int xDirection;
-    public int yDirection;
-    public Vector2 goal;
+    protected int xDirection;
+    protected int yDirection;
+    protected Vector2 goal;
 
     protected virtual void Start()
     {
