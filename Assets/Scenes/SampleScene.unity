@@ -386,8 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 1528809172373155148, guid: 7f5102167ebb7f143a63ec3716b8ef79, type: 3}
-  - {fileID: 54126214497214294, guid: f6bc2e62a754da34dbc3c6203b8c94af, type: 3}
+  - {fileID: 9128541301212572846, guid: c36a38820ad44304fa1074a3788132c3, type: 3}
   minValue: 0
   maxValue: 4
 --- !u!4 &361453096
@@ -692,8 +691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 1528809172373155148, guid: 7f5102167ebb7f143a63ec3716b8ef79, type: 3}
-  - {fileID: 54126214497214294, guid: f6bc2e62a754da34dbc3c6203b8c94af, type: 3}
+  - {fileID: 9128541301212572846, guid: c36a38820ad44304fa1074a3788132c3, type: 3}
   minValue: 0
   maxValue: 4
 --- !u!4 &1252302115
