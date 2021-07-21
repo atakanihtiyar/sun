@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KamikazeMovement : StraightMovement
 {
-    private int whichXWillIDie;
+    public int whichXWillIDie;
     public int minXToDie;
     public int maxXToDie;
 
@@ -17,7 +17,7 @@ public class KamikazeMovement : StraightMovement
 
     public override int NewDirectionY()
     {
-        if ((whichXWillIDie - transform.position.x) < 0.2f)
+        if (Mathf.Abs(whichXWillIDie - transform.position.x) < 0.1f)
         {
             Transform player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
             return (int)player.position.y;
