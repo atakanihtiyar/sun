@@ -5,6 +5,7 @@ using UnityEngine;
 public class Turret : MonoBehaviour
 {
     public GameObject projectilePrefab;
+    public Gun gun;
 
     public void Fire()
     {
