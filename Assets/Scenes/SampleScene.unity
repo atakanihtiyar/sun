@@ -128,6 +128,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1710277386}
     m_Modifications:
+    - target: {fileID: 3486605242995758067, guid: bb69eefba10f6b645ab45e9dc905a929,
+        type: 3}
+      propertyPath: maxWaitTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396708, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_Color.g
@@ -505,6 +510,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1710277386}
     m_Modifications:
+    - target: {fileID: 3486605242995758067, guid: bb69eefba10f6b645ab45e9dc905a929,
+        type: 3}
+      propertyPath: maxWaitTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396708, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_Color.g
@@ -648,7 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 063f5a7ccc2842d40b74e27d1867348b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxWaitTime: 3
+  maxWaitTime: 1
   toDoEvent:
     m_PersistentCalls:
       m_Calls:
@@ -883,7 +893,7 @@ MonoBehaviour:
   - {fileID: 967382019}
   - {fileID: 1659923943}
   - {fileID: 576747271}
-  maxWaitTime: 3
+  maxWaitTime: 5
   startColor: {r: 1, g: 1, b: 1, a: 1}
   mainColor: {r: 1, g: 0.32941177, b: 0, a: 1}
 --- !u!1001 &5163731920645731799
@@ -893,6 +903,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1710277386}
     m_Modifications:
+    - target: {fileID: 3486605242995758067, guid: bb69eefba10f6b645ab45e9dc905a929,
+        type: 3}
+      propertyPath: maxWaitTime
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396708, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_Color.g
