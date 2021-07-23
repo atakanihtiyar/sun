@@ -12,7 +12,7 @@ public class Turret : MonoBehaviour
         GameObject projectileGO = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
         Projectile projectile = projectileGO.GetComponent<Projectile>();
         
-        Vector2 direction = transform.position - transform.parent.position;
+        Vector2 direction = new Vector2(transform.position.x - transform.parent.position.x, 0);
         projectile.FireYourself(direction);
     }
 
