@@ -7,7 +7,6 @@ public class TurretManager : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     public GameObject[] turrets;
-    public bool isEnableNewTurret;
 
     private float waitTime = 0;
     public float maxWaitTime;
@@ -19,7 +18,6 @@ public class TurretManager : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        isEnableNewTurret = false;
         waitTime = 0;
         spriteRenderer.color = startColor;
         turrets[0].SetActive(true);
@@ -33,7 +31,6 @@ public class TurretManager : MonoBehaviour
             {
                 ActivateNextTurret();
                 waitTime -= maxWaitTime;
-                isEnableNewTurret = false;
             }
         }
         else
