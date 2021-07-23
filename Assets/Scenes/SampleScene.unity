@@ -141,12 +141,12 @@ PrefabInstance:
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
@@ -156,7 +156,7 @@ PrefabInstance:
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420031}
-  box: {fileID: 0}
+  zone: {fileID: 0}
 --- !u!61 &330411560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -518,12 +518,12 @@ PrefabInstance:
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
@@ -533,7 +533,7 @@ PrefabInstance:
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
@@ -778,7 +778,7 @@ Transform:
   m_GameObject: {fileID: 1710277385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 2}
   m_Children:
   - {fileID: 956279154}
   - {fileID: 1659923944}
@@ -883,7 +883,6 @@ MonoBehaviour:
   - {fileID: 967382019}
   - {fileID: 1659923943}
   - {fileID: 576747271}
-  isEnableNewTurret: 0
   maxWaitTime: 3
   startColor: {r: 1, g: 1, b: 1, a: 1}
   mainColor: {r: 1, g: 0.32941177, b: 0, a: 1}
@@ -907,12 +906,12 @@ PrefabInstance:
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5163731919708396709, guid: bb69eefba10f6b645ab45e9dc905a929,
         type: 3}
