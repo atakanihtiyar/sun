@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class Sun : MonoBehaviour
 {
-    private float multiplier = 50;
     public float speed;
 
     public float yMin;
     public float yMax;
-
-    public float minRotateAngle;
-    public float maxRotateAngle;
 
     private void Update()
     {
