@@ -20,21 +20,7 @@ public class Sun : MonoBehaviour
         if (transform.position.y + yDiff < yMax && transform.position.y + yDiff > yMin)
             transform.Translate(0, yDiff, 0);
     }
-    
-    void FixedUpdate()
-    {
-        float turnInput = Input.GetAxis("Fire1");
 
-        if (turnInput != 0)
-        {
-            transform.Rotate(Vector3.back * turnInput * multiplier * Time.fixedDeltaTime);
-            
-            Vector3 currentRotation = transform.localEulerAngles;
-            currentRotation.z = Mathf.Clamp(currentRotation.z, minRotateAngle, maxRotateAngle);
-            transform.localEulerAngles = currentRotation;
-        }
-    }
-    
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
