@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameZone : MonoBehaviour
 {
     public Camera cam;
-    public BoxCollider2D box;
+    public BoxCollider2D collider;
 
     void Start()
     {
@@ -14,7 +14,7 @@ public class GameZone : MonoBehaviour
             Debug.LogError("Camera must be Orthographic.");
             return;
         }
-        box = GetComponent<BoxCollider2D>();
+        collider = GetComponent<BoxCollider2D>();
 
         float aspect = (float)Screen.width / Screen.height;
         float orthoSize = cam.orthographicSize;
@@ -22,7 +22,7 @@ public class GameZone : MonoBehaviour
         float width = 2.0f * orthoSize * aspect;
         float height = 2.0f * cam.orthographicSize;
 
-        box.size = new Vector2(width, height);
+        collider.size = new Vector2(width, height);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
