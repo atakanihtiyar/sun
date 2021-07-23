@@ -176,8 +176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  xDirection: 0
-  yDirection: 0
-  goal: {x: 0, y: 0}
-  minXToDie: 1
-  maxXToDie: 3
+  whichXWillIDie: 0
+  minXToDie: -4
+  maxXToDie: 4
