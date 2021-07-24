@@ -13,7 +13,7 @@ public class Turret : MonoBehaviour
         Projectile projectile = projectileGO.GetComponent<Projectile>();
         
         Vector2 direction = new Vector2(transform.position.x - transform.parent.position.x, 0);
-        projectile.FireYourself(direction);
+        projectile.FireYourself(direction.normalized);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
