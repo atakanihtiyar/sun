@@ -11,8 +11,7 @@ public class Health : MonoBehaviour
 
     public void DecreaseHealth()
     {
-        --health;
-        if (health <= 0)
+        if (--health <= 0)
         {
             Instantiate(SpawnObjectWhenIDie, transform.position, Quaternion.identity);
 
