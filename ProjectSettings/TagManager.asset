@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Sun
   - PlayerBullet
+  - Coin
   layers:
   - Default
   - TransparentFX
