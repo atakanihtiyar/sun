@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class TurretManager : MonoBehaviour
 {
-    public delegate void AddTurret();
-    public static AddTurret onAddCoin;
-
     public GameObject[] turrets;
 
     private void Start()
