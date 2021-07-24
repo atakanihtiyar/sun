@@ -5,8 +5,7 @@ using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
-    public List<UnityEvent> toDosWhenIDie;
-    public List<GameObject> SpawnObjectsWhenIDie;
+    public GameObject SpawnObjectWhenIDie;
 
     public float health;
 
@@ -15,13 +14,8 @@ public class Health : MonoBehaviour
         --health;
         if (health <= 0)
         {
-            toDosWhenIDie.ForEach(toDo => { toDo?.Invoke(); });
-            SpawnObjectsWhenIDie.ForEach(spawnObject => 
-            { 
-                StraightMovement straightMovement = Instantiate(spawnObject, transform.position, Quaternion.identity).GetComponent<StraightMovement>();
-                straightMovement.OnCreate();
+            Instantiate(SpawnObjectWhenIDie, transform.position, Quaternion.identity);
 
-            });
             Destroy(gameObject);
         }
     }

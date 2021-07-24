@@ -148,7 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30efdb99d3f18bc4192851be2b007ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedMultiplier: 1
+  SpawnObjectsWhenIDie:
+  - {fileID: 7554396546964784157, guid: 04959598b4c9a7240981fd3a4c7ba4ac, type: 3}
 --- !u!114 &6480464007676607046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,6 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4ef473956ca0a4fbd1042d26e1825e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnObjectWhenIDie: {fileID: 7554396546964784157, guid: 04959598b4c9a7240981fd3a4c7ba4ac,
+    type: 3}
   health: 1
 --- !u!114 &6764234635506086225
 MonoBehaviour:
@@ -175,6 +178,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  xDirection: 0
-  yDirection: 0
-  goal: {x: 0, y: 0}

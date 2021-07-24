@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30efdb99d3f18bc4192851be2b007ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnObjectsWhenIDie:
+  - {fileID: 7554396546964784157, guid: 04959598b4c9a7240981fd3a4c7ba4ac, type: 3}
 --- !u!114 &3636453888559446948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,8 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4ef473956ca0a4fbd1042d26e1825e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toDosWhenIDie: []
-  SpawnObjectsWhenIDie: []
+  SpawnObjectWhenIDie: {fileID: 7554396546964784157, guid: 04959598b4c9a7240981fd3a4c7ba4ac,
+    type: 3}
   health: 1
 --- !u!114 &2563120131080019936
 MonoBehaviour:
