@@ -4,25 +4,20 @@ using UnityEngine;
 
 public class TurretManager : MonoBehaviour
 {
-    public GameObject[] turrets;
+    public Turret[] turrets;
 
     private void Start()
     {
-        turrets[0].SetActive(true);
+        turrets[0].ChangeVisibility(true);
     }
-
-    private void Update()
-    {
-
-    }
-
+    
     public void ActivateNextTurret()
     {
         for (int i = 0; i < turrets.Length; i++)
         {
-            if (turrets[i].activeSelf == false)
+            if (turrets[i].GetVisibility() == false)
             {
-                turrets[i].SetActive(true);
+                turrets[i].ChangeVisibility(true);
                 return;
             }
         }
