@@ -1,3 +1,3 @@
-# shoot-em-up.sun
+# sun
 
 This game is designed for mobile. Its a casual shooter game. 
